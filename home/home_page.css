@@ -1,0 +1,40 @@
+html, body, #app {
+    height: 100%;
+    color: black;
+  }
+  #app {
+    min-height: 100%;
+  }
+
+  .footer {
+    margin-top: -12px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #menu-toggle:checked + .nav-menu {
+      display: block;
+    }
+  }
+
+.active
+{
+    background:rgb(160, 233, 42);
+    color: white;
+}
+
+.classes-instructing{
+  margin-bottom: 100px
+}
+ #titleh{
+   margin-left: 290px
+ }
+ 
+ #new-assignment{
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: rgb(177, 219, 219);
+  padding: 5px;
+ }
+ #account{
+   margin-top: 250px
+ }
